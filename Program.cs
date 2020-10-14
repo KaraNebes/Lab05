@@ -79,46 +79,18 @@ namespace Lab05
                 do
                 {
                     Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.White;
                     Output(factorial);
                     Thread.Sleep(time);
 
                     Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Black;
                     Output(factorial);
                     Thread.Sleep(time);
 
-                    Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.BackgroundColor = ConsoleColor.Green;
-                    Output(factorial);
-                    Thread.Sleep(time);
-
-                    Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.BackgroundColor = ConsoleColor.Cyan;
-                    Output(factorial);
-                    Thread.Sleep(time);
-
-                    Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.BackgroundColor = ConsoleColor.Blue;
-                    Output(factorial);
-                    Thread.Sleep(time);
                     
-                    Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.BackgroundColor = ConsoleColor.Magenta;
-                    Output(factorial);
-                    Thread.Sleep(time);
-
-                    Console.SetCursorPosition(0, 0);
-                    Console.ForegroundColor = ConsoleColor.Magenta;
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    Output(factorial);
-                    Thread.Sleep(time);
                 } while (!Console.KeyAvailable);
 
                 //обработка события нажатия на клавишу
