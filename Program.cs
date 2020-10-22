@@ -8,7 +8,7 @@ namespace Lab05
         {
             int input = ReadNum();
             string factorial = CalculateFactorial(input);
-            FadeText(factorial);
+            FlashingText(factorial);
         }
         static int ReadNum()
         {
@@ -71,7 +71,7 @@ namespace Lab05
 
             Console.WriteLine(endSym);
         }
-        static void FadeText(string factorial)
+        static void FlashingText(string factorial)
         {
             int time = 150;
             do
